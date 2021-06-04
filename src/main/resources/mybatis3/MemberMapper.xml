@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member">
+	
+	<insert id="insertMember" statementType="PREPARED" parameterType="hi_choi.spring.vo.Member">
+		insert into member (userid, passwd, name, email) values (#{userid},#{passwd},#{name},#{email})
+	</insert>
+	
+	<select id="loginMember" statementType="PREPARED" parameterType="hi_choi.spring.vo.Member" resultType="int">
+		select count(userid) cnt from member
+		where userid = #{userid} and passwd = #{passwd}
+	</select>
+ 
+	<select id="selectOneMember" statementType="PREPARED" parameterType="String" resultType="hi_choi.spring.vo.Member">
+		select * from member where userid = #{userid}
+	</select>
+	
+	<!-- <update id="updateMember" statementType="PREPARED" parameterType="hi_choi.spring.vo.Member">
+		update member set userid=#{userid, jdbcType=VARCHAR}, passwd=#{passwd}, name=#{name}, email=#{email}, joindate=#{joindate} where mno=#{mno}
+
+	</update>
+	
+	<delete id="deleteMember" statementType="PREPARED" parameterType="Integer">
+		delete from member where mno=#{mno}
+	</delete> -->
+
+</mapper>
