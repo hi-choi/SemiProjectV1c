@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/*로그인 css */
+#loginfrm {
+	width: 300px;
+	margin: 120px auto;
+}
+
+#loginfrm div {
+	margin-bottom: 10px;
+}
+
+#loginfrm label {
+	display: inline-block;
+	width: 115px;
+	text-align: right;
+	font-weight: bold;
+}
+
+#loginfrm button {
+	margin-left: 120px;
+	width: 75px;
+}
+
+#loginfrm input, button {
+	padding: 5px;
+}
+
+/*회원가입 css */
+#joinfrm {
+	width: 300px;
+	margin: 100px auto;
+}
+
+#joinfrm div {
+	margin-bottom: 10px;
+}
+
+#joinfrm label {
+	display: inline-block;
+	width: 115px;
+	text-align: right;
+	font-weight: bold;
+}
+
+#joinfrm input, button {
+	padding: 5px;
+}
+
+/*내정보 css */
+#myinfo {
+	width: 300px;
+	margin: 125px auto;
+}
+
+#myinfo div {
+	padding-bottom: 5px;
+}
+
+#myinfo .label {
+	display: inline-block;
+	width: 120px;
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: 10px;
+	padding-right: 7px;
+}
+
+/*list css */
+table {
+	margin: 0 auto;
+	width: 75%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+th, td {
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+td:nth-child(2) {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.newbtn {
+	text-align: right;
+	border: none;
+}
+
+.tbnav {
+	border: none;
+}
+
+.cpage {
+	font-weight: bold;
+	color: red;
+	font-size: 30px;
+}
+
+#board button {
+	width: 100px;
+	padding: 5px;
+	margin-right: -10px;
+}
+
+/*view css */
+#view {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#view div {
+	margin-bottom: 20px;
+}
+
+#view div:first-child {
+	margin-bottom: 25px;
+}
+
+#view div label {
+	font-weight: bold;
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+
+#view div span {
+	border: 1px solid silver;
+	padding: 5px;
+}
+
+#view .contents {
+	display: inline-block;
+	width: 450px;
+	height: 250px;
+	border: 1px solid silver;
+}
+
+#view .dragup {
+	vertical-align: top;
+}
+
+/*write css */
+#boardfrm {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#boardfrm div {
+	margin-bottom: 10px;
+}
+
+#boardfrm div label {
+	font-weight: bold;
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+
+#boardfrm #contents {
+	display: inline-block;
+	width: 450px;
+	height: 150px;
+}
+
+#boardfrm .dragup {
+	vertical-align: top;
+}
+

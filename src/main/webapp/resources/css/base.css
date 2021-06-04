@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    margin:0;
+}
+
+#wrap {
+    width:960px;
+    margin:0 auto;
+}
+
+a {
+    font-weight:bold;
+}
+a:link {text-decoration:none; color:black;}
+a:visited{text-decoration: none;color:black;}
+a:active{text-decoration: underline;color:orange;}
+a:hover{text-decoration: underline;color:orange;}
+
+/*header영역에 적용하는 스타일시트 */
+
+/*nav영역에 적용하는 스타일시트 */
+nav ul {list-style-type:none; padding-bottom:15px;}
+nav ul li { float:left; margin-left:100px;}
+nav hr {clear:both;}
+
+/*main영역에 적용하는 스타일시트 */
+#container { min-height:500px;}
+
+/*footer영역에 적용하는 스타일시트 */
+footer p {text-align:center;}
