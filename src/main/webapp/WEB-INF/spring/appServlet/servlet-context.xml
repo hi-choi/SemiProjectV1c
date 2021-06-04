@@ -41,7 +41,7 @@
 	</beans:bean>
 	
 	
-	<context:component-scan base-package="hi_choi.spring.mvc" />
+	<context:component-scan base-package="hi_choi.spring" />
 	
 	
 	
